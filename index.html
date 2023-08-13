@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="sravan.css">
+        <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="./Images/Srav_logo-PhotoRoom.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Front-End Developer</p>
+                    <h1 style="font-family:'Times New Roman', Times, serif;">Hello,I'm <span>Sravan </span><br>Thipparthy From Warangal</h1>
+                </div>
+            </div>
+        </div>
+        <!................about..........>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./Images/sravan_bkpic.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="h11" sub-title>About Me</h1>
+                        <br>
+                        <p>Embarking on a dynamic journey to fuse my passion for innovation with a forward-looking organization. Eager to embrace challenges that fuel continuous learning, I aspire to amplify my skills and knowledge within a visionary company. Committed to steering my career towards impactful contributions that fortify the company's triumphs, while unearthing the latest currents in the ever-evolving realm of IT.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link h11" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links h11" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links h11" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend</span><br>HTML,CSS,Bootstrap,JavaScript</li>
+                                <li><span>Backend</span><br>Python,Java</li>
+                                <li><span>Database</span><br>SQL,Mysql</li>
+                                <li><span>Others</span><br>Git,Bootstrap,Data Structures,Problem Solving</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019-2023</span><br>B.Tech in Electrical & Electronics Engineering<br>RGUKT Basar</li>
+                                <li><span>2017-2019</span><br>Pre-University Course (P.U.C) in MPC<br>RGUKT Basar</li>
+                                <li><span>2016-2017</span><br>SSC<br>GOVT Practising High School(X)<br>Hanamkonda</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!...............................services......................>
+        <div id="services">
+            <div class="container">
+                <h1 sub-title>My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Front-End Development</h2>
+                        <p>I gained hands-on experience in various technologies like HTML,CSS,JS,Python,Sql,Mysql</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I like making websites look pretty.I know that good design is just as important as good development</p>
+                        <a href="#">Learn more</a>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+<!.............Portfolio..................>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="https://static.vecteezy.com/system/resources/previews/009/019/666/original/wpt-logo-wpt-letter-wpt-letter-logo-design-initials-wpt-logo-linked-with-circle-and-uppercase-monogram-logo-wpt-typography-for-technology-business-and-real-estate-brand-vector.jpg">
+                        <div class="layer">
+                            <h3>Major Project-I</h3>
+                            <p>Power Factor Correction Modulated Wireless Power Transfer System With S_S compensation</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://static.vecteezy.com/system/resources/previews/009/686/046/non_2x/wpt-letter-technology-logo-design-on-white-background-wpt-creative-initials-letter-it-logo-concept-wpt-letter-design-vector.jpg">
+                        <div class="layer">
+                            <h3>Major Project-II</h3>
+                            <p>Secondary Side power control method for Double-Sided LCC Compensation</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://media.istockphoto.com/id/1298834585/vector/sql-icon-major-database-format-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=GibfLwPw_hjsQMVQUMf-GQIzrp3Bkh_KWOoN5WpOiPI=">
+                        <div class="layer">
+                            <h3>SQL-Zomato_Project</h3>
+                            <p>To polish and enhance my sql skills thoroughly worked on various sql based real life zomato projects.It helped to upskil sql data base</p>
+                            <a href="https://github.com/sravan-11-git/SQL-Zomato_Project"><i class="fas fa
+                    <div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        </div>
+
+            <!......................contact..............>
+            <div id="contact">
+                <div style="margin: 0;" class="container con">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fas fa-paper-plane"></i>sravanthipparthy@gmail.com</p>
+                            <p><i class="fas fa-phone-square-alt"></i>+919959285609</p>
+                            <div class="social-icons">
+                                <a href="https://github.com/sravan-11-git"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/sravan-thipparthy-b49963202/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com/random_exi"><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://www.instagram.com/srav1_11/"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <a href="#" class="btn btn2">Download Resume</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet" >
+                                <input type="text" name="Name" placeholder="Your Name" required class="form1">
+                                <input type="email" name="Email" placeholder="Your Email" required class="form1">
+                                <textarea name="Message"  rows="6" placeholder="Your Message" class="form1"></textarea>
+                                <button type="submit" class="btn btn2" class="form1">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright © Sravan Thipparthy</p>
+            </div>
+
+        </div>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzApKaCTr2cUYQsgI3g6JpWIfUIhrb_yOvSrqraKWymtHo9VZRAXUy0Jg9WtjLteDXW/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
